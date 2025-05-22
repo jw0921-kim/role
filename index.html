@@ -1,10 +1,11 @@
 
 <!DOCTYPE html>
+
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <title>2025 기능 요약표 (토글 확장)</title>
-    <style>
+<meta charset="utf-8"/>
+<title>2025 기능 요약표 (토글 확장)</title>
+<style>
         body {
             font-family: 'Arial', sans-serif;
             background-color: #f4f4f4;
@@ -35,10 +36,6 @@
         font-weight: bold;
     }
     </style>
-
-    
-
-
 <script>
 function togglePeople(dateStr) {
     const header = document.querySelector(`tr.header[data-date='${dateStr}']`);
@@ -82,10 +79,8 @@ window.onload = function () {
     }
 }
 </script>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
-    <style>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+<style>
     #capture-button {
         position: fixed;
         top: 20px;
@@ -101,1220 +96,1174 @@ window.onload = function () {
         
     }
     </style>
-    </head>
-
-
-    
-    <body>
-    <button id="capture-button" onclick="captureVisible()">📸 캡처하기</button>
-
-    <button id="capture-button" onclick="captureVisible()">📸 캡처하기</button>
-
-    <h1 style="text-align:center;">2025 기능 요약표</h1>
-    <p style="text-align:center; color:#6c757d">※ 날짜 줄 클릭 시 담당자가 펼쳐지고, 일요일 12시 이후엔 다음 주가 자동 강조됩니다.</p>
-    <table style='width:100%; border-collapse: separate; border-spacing: 0 10px;'>
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-03-30" onclick="togglePeople('2025-03-30')" style="cursor:pointer; background-color: #ffffff !important;">
-            <td colspan="7"><b>2025-03-30 (일)</b> - 13과 아브람의 조카 롯<br><b>찬양하세 곡명:</b> 42장 주님만 따라갈래</td>
-        </tr>
-        <tr class="people" data-date="2025-03-30" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 박나은<br>2반: 설혜린</td>
-                <td>1반: 라유리<br>2반: 이수진</td>
-                <td>1반: 김민서<br>2반: 전효진</td>
-                <td>1반: 김도건<br>2반: 박다은</td>
-                <td>1반: 김진우<br>2반: 문지훈</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-04-06" onclick="togglePeople('2025-04-06')" style="cursor:pointer; background-color: #f0f0f5 !important;">
-            <td colspan="7"><b>2025-04-06 (일)</b> - 14과 이삭을 바친 아브라함<br><b>찬양하세 곡명:</b> 98장 어머어머 어머어머</td>
-        </tr>
-        <tr class="people" data-date="2025-04-06" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 김주연<br>2반: 남소연</td>
-                <td>1반: 김민서<br>2반: 이수진</td>
-                <td>1반: 라유리<br>2반: 전효진</td>
-                <td>1반: 김진우<br>2반: 문지훈</td>
-                <td>1반: 김도건<br>2반: 박수용</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-04-13" onclick="togglePeople('2025-04-13')" style="cursor:pointer; background-color: #fdf5f0 !important;">
-            <td colspan="7"><b>2025-04-13 (일)</b> - 15과 오래 참은 이삭<br><b>찬양하세 곡명:</b> 113장 용서하는 아이</td>
-        </tr>
-        <tr class="people" data-date="2025-04-13" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 박나은<br>2반: 설혜린</td>
-                <td>1반: 김도건<br>2반: 박다은</td>
-                <td>1반: 김민서<br>2반: 박수용</td>
-                <td>1반: 라유리<br>2반: 이수진</td>
-                <td>1반: 문지훈<br>2반: 전효진</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-04-20" onclick="togglePeople('2025-04-20')" style="cursor:pointer; background-color: #f3faf3 !important;">
-            <td colspan="7"><b>2025-04-20 (일)</b> - 16과 하나님의 축복을 버린 에서<br><b>찬양하세 곡명:</b> (1반)23장 쌍둥이형제<br>(2반)12장 어리석은자</td>
-        </tr>
-        <tr class="people" data-date="2025-04-20" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 김주연<br>2반: 남소연</td>
-                <td>1반: 라유리<br>2반: 박다은</td>
-                <td>1반: 박나은<br>2반: 전효진</td>
-                <td>1반: 김도건<br>2반: 박수용</td>
-                <td>1반: 김진우<br>2반: 문지훈</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-04-27" onclick="togglePeople('2025-04-27')" style="cursor:pointer; background-color: #ffffff !important;">
-            <td colspan="7"><b>2025-04-27 (일)</b> - 17과 하나님과 씨름한 야곱<br><b>찬양하세 곡명:</b> 91장 성령님을 의지해</td>
-        </tr>
-        <tr class="people" data-date="2025-04-27" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 박나은<br>2반: 설혜린</td>
-                <td>1반: 김민서<br>2반: 문지훈</td>
-                <td>1반: 라유리<br>2반: 이수진</td>
-                <td>1반: 김주연<br>2반: 전효진</td>
-                <td>1반: 김도건<br>2반: 박수용</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-05-04" onclick="togglePeople('2025-05-04')" style="cursor:pointer; background-color: #f0f0f5 !important;">
-            <td colspan="7"><b>2025-05-04 (일)</b> - 18과 총리가 된 요셉<br><b>찬양하세 곡명:</b> 89장 날 도우시네</td>
-        </tr>
-        <tr class="people" data-date="2025-05-04" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 김주연<br>2반: 남소연</td>
-                <td>1반: 김도건<br>2반: 박수용</td>
-                <td>1반: 김민서<br>2반: 박다은</td>
-                <td>1반: 김진우<br>2반: 이수진</td>
-                <td>1반: 신재호<br>2반: 전효진</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-05-11" onclick="togglePeople('2025-05-11')" style="cursor:pointer; background-color: #fdf5f0 !important;">
-            <td colspan="7"><b>2025-05-11 (일)</b> - 19과 형들을 용서한 요셉<br><b>찬양하세 곡명:</b> (1반)7장 교회 가족들<br>(2반)10장 예수님의 사랑</td>
-        </tr>
-        <tr class="people" data-date="2025-05-11" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 박나은<br>2반: 설혜린</td>
-                <td>1반: 라유리<br>2반: 이수진</td>
-                <td>1반: 김도건<br>2반: 박다은</td>
-                <td>1반: 신재호<br>2반: 전효진</td>
-                <td>1반: 김진우<br>2반: 문지훈</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-05-18" onclick="togglePeople('2025-05-18')" style="cursor:pointer; background-color: #f3faf3 !important;">
-            <td colspan="7"><b>2025-05-18 (일)</b> - 20과 보호를 받은 아기 모세<br><b>찬양하세 곡명:</b> (1반)55장 내 하나님은<br>(2반)88장 우리에게 향하신</td>
-        </tr>
-        <tr class="people" data-date="2025-05-18" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 김주연<br>2반: 남소연</td>
-                <td>1반: 김민서<br>2반: 박다은</td>
-                <td>1반: 라유리<br>2반: 이수진</td>
-                <td>1반: 김진우<br>2반: 신재호</td>
-                <td>1반: 김도건<br>2반: 박수용</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-05-25" onclick="togglePeople('2025-05-25')" style="cursor:pointer; background-color: #ffffff !important;">
-            <td colspan="7"><b>2025-05-25 (일)</b> - 21과 애굽에 재앙을 내리신 하나님<br><b>찬양하세 곡명:</b> 24장 열재앙 이야기</td>
-        </tr>
-        <tr class="people" data-date="2025-05-25" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 박나은<br>2반: 설혜린</td>
-                <td>1반: 김주연<br>2반: 박수용</td>
-                <td>1반: 김민서<br>2반: 문지훈</td>
-                <td>1반: 라유리<br>2반: 이수진</td>
-                <td>1반: 신재호<br>2반: 전효진</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-06-01" onclick="togglePeople('2025-06-01')" style="cursor:pointer; background-color: #f0f0f5 !important;">
-            <td colspan="7"><b>2025-06-01 (일)</b> - 22과 하나님의 유월절<br><b>찬양하세 곡명:</b> 67장 하나님이 세상을</td>
-        </tr>
-        <tr class="people" data-date="2025-06-01" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 김주연<br>2반: 남소연</td>
-                <td>1반: 라유리<br>2반: 박다은</td>
-                <td>1반: 박나은<br>2반: 전효진</td>
-                <td>1반: 설혜린<br>2반: 박수용</td>
-                <td>1반: 김진우<br>2반: 문지훈</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-06-08" onclick="togglePeople('2025-06-08')" style="cursor:pointer; background-color: #fdf5f0 !important;">
-            <td colspan="7"><b>2025-06-08 (일)</b> - 23과 홍해를 가르신 하나님<br><b>찬양하세 곡명:</b> 25장 애굽에서 나왔다</td>
-        </tr>
-        <tr class="people" data-date="2025-06-08" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 박나은<br>2반: 설혜린</td>
-                <td>1반: 김민서<br>2반: 문지훈</td>
-                <td>1반: 라유리<br>2반: 박다은</td>
-                <td>1반: 남소연<br>2반: 이수진</td>
-                <td>1반: 김도건<br>2반: 박수용</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-06-15" onclick="togglePeople('2025-06-15')" style="cursor:pointer; background-color: #f3faf3 !important;">
-            <td colspan="7"><b>2025-06-15 (일)</b> - 24과 하늘에서 내려 온 만나<br><b>찬양하세 곡명:</b> 121장 물방울 <br>(물방울 가사를- ‘만나’ 로 개사해서 부르기)</td>
-        </tr>
-        <tr class="people" data-date="2025-06-15" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 김주연<br>2반: 남소연</td>
-                <td>1반: 김도건<br>2반: 박다은</td>
-                <td>1반: 김민서<br>2반: 이수진</td>
-                <td>1반: 설혜린<br>2반: 김진우</td>
-                <td>1반: 신재호<br>2반: 전효진</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-06-22" onclick="togglePeople('2025-06-22')" style="cursor:pointer; background-color: #ffffff !important;">
-            <td colspan="7"><b>2025-06-22 (일)</b> - 25과 하나님께서 주신 율법<br><b>찬양하세 곡명:</b> 110장 서서 진리의 띠</td>
-        </tr>
-        <tr class="people" data-date="2025-06-22" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 박나은<br>2반: 설혜린</td>
-                <td>1반: 라유리<br>2반: 이수진</td>
-                <td>1반: 김주연<br>2반: 박다은</td>
-                <td>1반: 남소연<br>2반: 전효진</td>
-                <td>1반: 김진우<br>2반: 문지훈</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-06-29" onclick="togglePeople('2025-06-29')" style="cursor:pointer; background-color: #f0f0f5 !important;">
-            <td colspan="7"><b>2025-06-29 (일)</b> - 26과 금송아지를 숭배한 이스라엘 백성<br><b>찬양하세 곡명:</b> (1반)81장 네 눈이 보는 것을<br>(2반)12장 어리석은자</td>
-        </tr>
-        <tr class="people" data-date="2025-06-29" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 김주연<br>2반: 남소연</td>
-                <td>1반: 김민서<br>2반: 문지훈</td>
-                <td>1반: 라유리<br>2반: 이수진</td>
-                <td>1반: 박나은<br>2반: 신재호</td>
-                <td>1반: 김도건<br>2반: 박수용</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-07-06" onclick="togglePeople('2025-07-06')" style="cursor:pointer; background-color: #fdf5f0 !important;">
-            <td colspan="7"><b>2025-07-06 (일)</b> - 27과 성막을 지은 이스라엘 백성<br><b>찬양하세 곡명:</b> 131장 주안에 살리라</td>
-        </tr>
-        <tr class="people" data-date="2025-07-06" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 박나은<br>2반: 설혜린</td>
-                <td>1반: 김도건<br>2반: 박수용</td>
-                <td>1반: 김민서<br>2반: 박다은</td>
-                <td>1반: 김주연<br>2반: 문지훈</td>
-                <td>1반: 신재호<br>2반: 전효진</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-07-13" onclick="togglePeople('2025-07-13')" style="cursor:pointer; background-color: #f3faf3 !important;">
-            <td colspan="7"><b>2025-07-13 (일)</b> - 28과 죄를 용서받는 제사<br><b>찬양하세 곡명:</b> 141장 예수님의 보혈</td>
-        </tr>
-        <tr class="people" data-date="2025-07-13" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 김주연<br>2반: 남소연</td>
-                <td>1반: 라유리<br>2반: 이수진</td>
-                <td>1반: 박나은<br>2반: 전효진</td>
-                <td>1반: 설혜린<br>2반: 박다은</td>
-                <td>1반: 김진우<br>2반: 문지훈</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-07-20" onclick="togglePeople('2025-07-20')" style="cursor:pointer; background-color: #ffffff !important;">
-            <td colspan="7"><b>2025-07-20 (일)</b> - 29과 정탐꾼들의 보고<br><b>찬양하세 곡명:</b> 55장 내 하나님은</td>
-        </tr>
-        <tr class="people" data-date="2025-07-20" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 박나은<br>2반: 설혜린</td>
-                <td>1반: 김민서<br>2반: 박다은</td>
-                <td>1반: 라유리<br>2반: 이수진</td>
-                <td>1반: 남소연<br>2반: 김진우</td>
-                <td>1반: 김도건<br>2반: 박수용</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-07-27" onclick="togglePeople('2025-07-27')" style="cursor:pointer; background-color: #f0f0f5 !important;">
-            <td colspan="7"><b>2025-07-27 (일)</b> - 30과 놋뱀을 바라봄<br><b>찬양하세 곡명:</b> 106장 하나님 말씀으로</td>
-        </tr>
-        <tr class="people" data-date="2025-07-27" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 김주연<br>2반: 남소연</td>
-                <td>1반: 김도건<br>2반: 박수용</td>
-                <td>1반: 김민서<br>2반: 문지훈</td>
-                <td>1반: 김진우<br>2반: 이수진</td>
-                <td>1반: 신재호<br>2반: 전효진</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-08-03" onclick="togglePeople('2025-08-03')" style="cursor:pointer; background-color: #fdf5f0 !important;">
-            <td colspan="7"><b>2025-08-03 (일)</b> - 31과 새 지도자 여호수아<br><b>찬양하세 곡명:</b> 187장 오 주여 나의 마음이　</td>
-        </tr>
-        <tr class="people" data-date="2025-08-03" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 박나은<br>2반: 설혜린</td>
-                <td>1반: 라유리<br>2반: 박다은</td>
-                <td>1반: 김도건<br>2반: 박수용</td>
-                <td>1반: 신재호<br>2반: 전효진</td>
-                <td>1반: 김진우<br>2반: 문지훈</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-08-10" onclick="togglePeople('2025-08-10')" style="cursor:pointer; background-color: #f3faf3 !important;">
-            <td colspan="7"><b>2025-08-10 (일)</b> - 32과 요단강을 건너감<br><b>찬양하세 곡명:</b> 173장 하나님은 너를 지키시는 자</td>
-        </tr>
-        <tr class="people" data-date="2025-08-10" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 김주연<br>2반: 남소연</td>
-                <td>1반: 김민서<br>2반: 문지훈</td>
-                <td>1반: 박나은<br>2반: 이수진</td>
-                <td>1반: 라유리<br>2반: 설혜린</td>
-                <td>1반: 김도건<br>2반: 박수용</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-08-17" onclick="togglePeople('2025-08-17')" style="cursor:pointer; background-color: #ffffff !important;">
-            <td colspan="7"><b>2025-08-17 (일)</b> - 33과 무너진 여리고 성벽<br><b>찬양하세 곡명:</b> 27장 무너진 여리고성</td>
-        </tr>
-        <tr class="people" data-date="2025-08-17" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 박나은<br>2반: 설혜린</td>
-                <td>1반: 김주연<br>2반: 이수진</td>
-                <td>1반: 김도건<br>2반: 박다은</td>
-                <td>1반: 남소연<br>2반: 김진우</td>
-                <td>1반: 신재호<br>2반: 전효진</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-08-24" onclick="togglePeople('2025-08-24')" style="cursor:pointer; background-color: #f0f0f5 !important;">
-            <td colspan="7"><b>2025-08-24 (일)</b> - 34과 아간의 범죄<br><b>찬양하세 곡명:</b> 38장 악마사탄</td>
-        </tr>
-        <tr class="people" data-date="2025-08-24" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 김주연<br>2반: 남소연</td>
-                <td>1반: 라유리<br>2반: 박다은</td>
-                <td>1반: 김민서<br>2반: 전효진</td>
-                <td>1반: 설혜린<br>2반: 이수진</td>
-                <td>1반: 김진우<br>2반: 문지훈</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-08-31" onclick="togglePeople('2025-08-31')" style="cursor:pointer; background-color: #fdf5f0 !important;">
-            <td colspan="7"><b>2025-08-31 (일)</b> - 35과 가나안을 정복한 이스라엘<br><b>찬양하세 곡명:</b> 124장 믿음으로 가는 나라</td>
-        </tr>
-        <tr class="people" data-date="2025-08-31" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 박나은<br>2반: 설혜린</td>
-                <td>1반: 김민서<br>2반: 문지훈</td>
-                <td>1반: 라유리<br>2반: 전효진</td>
-                <td>1반: 김진우<br>2반: 신재호</td>
-                <td>1반: 김도건<br>2반: 박수용</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-09-07" onclick="togglePeople('2025-09-07')" style="cursor:pointer; background-color: #f3faf3 !important;">
-            <td colspan="7"><b>2025-09-07 (일)</b> - 36과 도피성<br><b>찬양하세 곡명:</b> 83장 내가 곧 길이요 진리요</td>
-        </tr>
-        <tr class="people" data-date="2025-09-07" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 김주연<br>2반: 남소연</td>
-                <td>1반: 김도건<br>2반: 박수용</td>
-                <td>1반: 라유리<br>2반: 박다은</td>
-                <td>1반: 설혜린<br>2반: 이수진</td>
-                <td>1반: 신재호<br>2반: 전효진</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-09-14" onclick="togglePeople('2025-09-14')" style="cursor:pointer; background-color: #ffffff !important;">
-            <td colspan="7"><b>2025-09-14 (일)</b> - 37과 섬길 자를 택하라<br><b>찬양하세 곡명:</b> 63장 어떤 길로 갈까</td>
-        </tr>
-        <tr class="people" data-date="2025-09-14" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 박나은<br>2반: 설혜린</td>
-                <td>1반: 라유리<br>2반: 박다은</td>
-                <td>1반: 김민서<br>2반: 박수용</td>
-                <td>1반: 남소연<br>2반: 전효진</td>
-                <td>1반: 김진우<br>2반: 문지훈</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-09-21" onclick="togglePeople('2025-09-21')" style="cursor:pointer; background-color: #f0f0f5 !important;">
-            <td colspan="7"><b>2025-09-21 (일)</b> - 38과 이스라엘을 구한 사사<br><b>찬양하세 곡명:</b> 180장 주님과 담대히</td>
-        </tr>
-        <tr class="people" data-date="2025-09-21" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 김주연<br>2반: 남소연</td>
-                <td>1반: 김민서<br>2반: 이수진</td>
-                <td>1반: 박나은<br>2반: 전효진</td>
-                <td>1반: 김진우<br>2반: 문지훈</td>
-                <td>1반: 김도건<br>2반: 박수용</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-09-28" onclick="togglePeople('2025-09-28')" style="cursor:pointer; background-color: #fdf5f0 !important;">
-            <td colspan="7"><b>2025-09-28 (일)</b> - 39과 기드온과 삼백용사<br><b>찬양하세 곡명:</b> 29장 나는 주의 군병</td>
-        </tr>
-        <tr class="people" data-date="2025-09-28" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 박나은<br>2반: 설혜린</td>
-                <td>1반: 김주연<br>2반: 박다은</td>
-                <td>1반: 라유리<br>2반: 이수진</td>
-                <td>1반: 김진우<br>2반: 문지훈</td>
-                <td>1반: 신재호<br>2반: 전효진</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-10-05" onclick="togglePeople('2025-10-05')" style="cursor:pointer; background-color: #f3faf3 !important;">
-            <td colspan="7"><b>2025-10-05 (일)</b> - 40과 사사 삼손<br><b>찬양하세 곡명:</b> 17장 노아할아버지 2절</td>
-        </tr>
-        <tr class="people" data-date="2025-10-05" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 김주연<br>2반: 남소연</td>
-                <td>1반: 라유리<br>2반: 이수진</td>
-                <td>1반: 김도건<br>2반: 박다은</td>
-                <td>1반: 설혜린<br>2반: 박수용</td>
-                <td>1반: 김진우<br>2반: 문지훈</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-10-12" onclick="togglePeople('2025-10-12')" style="cursor:pointer; background-color: #ffffff !important;">
-            <td colspan="7"><b>2025-10-12 (일)</b> - 41과 룻의 믿음<br><b>찬양하세 곡명:</b> 195장 먼저 그 나라와</td>
-        </tr>
-        <tr class="people" data-date="2025-10-12" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 박나은<br>2반: 설혜린</td>
-                <td>1반: 김민서<br>2반: 문지훈</td>
-                <td>1반: 라유리<br>2반: 전효진</td>
-                <td>1반: 남소연<br>2반: 박다은</td>
-                <td>1반: 김도건<br>2반: 박수용</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-10-19" onclick="togglePeople('2025-10-19')" style="cursor:pointer; background-color: #f0f0f5 !important;">
-            <td colspan="7"><b>2025-10-19 (일)</b> - 42과 사무엘을 부르신 하나님<br><b>찬양하세 곡명:</b> (1반)107장 나는 하나님의 것<br>(2반) 142장 오 기쁜날</td>
-        </tr>
-        <tr class="people" data-date="2025-10-19" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 김주연<br>2반: 남소연</td>
-                <td>1반: 김도건<br>2반: 박수용</td>
-                <td>1반: 김민서<br>2반: 문지훈</td>
-                <td>1반: 김진우<br>2반: 이수진</td>
-                <td>1반: 신재호<br>2반: 전효진</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-10-26" onclick="togglePeople('2025-10-26')" style="cursor:pointer; background-color: #fdf5f0 !important;">
-            <td colspan="7"><b>2025-10-26 (일)</b> - 43과 사울의 불순종<br><b>찬양하세 곡명:</b> 42장 주님만 따라갈래</td>
-        </tr>
-        <tr class="people" data-date="2025-10-26" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 박나은<br>2반: 설혜린</td>
-                <td>1반: 라유리<br>2반: 이수진</td>
-                <td>1반: 김도건<br>2반: 박다은</td>
-                <td>1반: 김민서<br>2반: 남소연</td>
-                <td>1반: 김진우<br>2반: 문지훈</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-11-02" onclick="togglePeople('2025-11-02')" style="cursor:pointer; background-color: #f3faf3 !important;">
-            <td colspan="7"><b>2025-11-02 (일)</b> - 44과 골리앗을 죽인 다윗<br><b>찬양하세 곡명:</b> 16장 꼬마다윗</td>
-        </tr>
-        <tr class="people" data-date="2025-11-02" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 김주연<br>2반: 남소연</td>
-                <td>1반: 김민서<br>2반: 박다은</td>
-                <td>1반: 라유리<br>2반: 이수진</td>
-                <td>1반: 김진우<br>2반: 설혜린</td>
-                <td>1반: 김도건<br>2반: 박수용</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-11-09" onclick="togglePeople('2025-11-09')" style="cursor:pointer; background-color: #ffffff !important;">
-            <td colspan="7"><b>2025-11-09 (일)</b> - 45과 다윗과 요나단의 우정<br><b>찬양하세 곡명:</b> (1반)9장 내마음에 사랑이<br>(2반)133장 주의 사랑으로</td>
-        </tr>
-        <tr class="people" data-date="2025-11-09" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 박나은<br>2반: 설혜린</td>
-                <td>1반: 김도건<br>2반: 박수용</td>
-                <td>1반: 김민서<br>2반: 박다은</td>
-                <td>1반: 라유리<br>2반: 김진우</td>
-                <td>1반: 신재호<br>2반: 전효진</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-11-16" onclick="togglePeople('2025-11-16')" style="cursor:pointer; background-color: #f0f0f5 !important;">
-            <td colspan="7"><b>2025-11-16 (일)</b> - 46과 사울의 목숨을 살려준 다윗<br><b>찬양하세 곡명:</b> 105장 사랑의 띠</td>
-        </tr>
-        <tr class="people" data-date="2025-11-16" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 김주연<br>2반: 남소연</td>
-                <td>1반: 라유리<br>2반: 박다은</td>
-                <td>1반: 박나은<br>2반: 전효진</td>
-                <td>1반: 김민서<br>2반: 이수진</td>
-                <td>1반: 김진우<br>2반: 문지훈</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-11-23" onclick="togglePeople('2025-11-23')" style="cursor:pointer; background-color: #fdf5f0 !important;">
-            <td colspan="7"><b>2025-11-23 (일)</b> - 47과 왕이 된 다윗<br><b>찬양하세 곡명:</b> 40장 왕왕왕</td>
-        </tr>
-        <tr class="people" data-date="2025-11-23" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 박나은<br>2반: 설혜린</td>
-                <td>1반: 김민서<br>2반: 문지훈</td>
-                <td>1반: 라유리<br>2반: 이수진</td>
-                <td>1반: 김진우<br>2반: 박다은</td>
-                <td>1반: 김도건<br>2반: 박수용</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-11-30" onclick="togglePeople('2025-11-30')" style="cursor:pointer; background-color: #f3faf3 !important;">
-            <td colspan="7"><b>2025-11-30 (일)</b> - 48과 다윗과 절뚝발이 왕자<br><b>찬양하세 곡명:</b> 33장 다다다다 모여라</td>
-        </tr>
-        <tr class="people" data-date="2025-11-30" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 김주연<br>2반: 남소연</td>
-                <td>1반: 김도건<br>2반: 이수진</td>
-                <td>1반: 김민서<br>2반: 문지훈</td>
-                <td>1반: 박나은<br>2반: 김진우</td>
-                <td>1반: 신재호<br>2반: 전효진</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-12-07" onclick="togglePeople('2025-12-07')" style="cursor:pointer; background-color: #ffffff !important;">
-            <td colspan="7"><b>2025-12-07 (일)</b> - 49과 지혜를 구한 솔로몬<br><b>찬양하세 곡명:</b> 6장 예수님 손잡고</td>
-        </tr>
-        <tr class="people" data-date="2025-12-07" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 박나은<br>2반: 설혜린</td>
-                <td>1반: 라유리<br>2반: 박다은</td>
-                <td>1반: 김도건<br>2반: 전효진</td>
-                <td>1반: 남소연<br>2반: 신재호</td>
-                <td>1반: 김진우<br>2반: 문지훈</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-12-14" onclick="togglePeople('2025-12-14')" style="cursor:pointer; background-color: #f0f0f5 !important;">
-            <td colspan="7"><b>2025-12-14 (일)</b> - 50과 성전을 지은 솔로몬<br><b>찬양하세 곡명:</b> 29장 나는 주의 군병</td>
-        </tr>
-        <tr class="people" data-date="2025-12-14" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 김주연<br>2반: 남소연</td>
-                <td>1반: 김민서<br>2반: 문지훈</td>
-                <td>1반: 라유리<br>2반: 이수진</td>
-                <td>1반: 설혜린<br>2반: 박다은</td>
-                <td>1반: 김도건<br>2반: 박수용</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-12-21" onclick="togglePeople('2025-12-21')" style="cursor:pointer; background-color: #fdf5f0 !important;">
-            <td colspan="7"><b>2025-12-21 (일)</b> - 51과 나누어진 나라<br><b>찬양하세 곡명:</b> (1반) 66장 의인이 없네<br>(2반) 77장 부패한 마음</td>
-        </tr>
-        <tr class="people" data-date="2025-12-21" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 박나은<br>2반: 설혜린</td>
-                <td>1반: 김주연<br>2반: 박수용</td>
-                <td>1반: 김민서<br>2반: 박다은</td>
-                <td>1반: 김진우<br>2반: 이수진</td>
-                <td>1반: 신재호<br>2반: 전효진</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    
-    <tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
-        <tr class="header" data-date="2025-12-28" onclick="togglePeople('2025-12-28')" style="cursor:pointer; background-color: #f3faf3 !important;">
-            <td colspan="7"><b>2025-12-28 (일)</b> - 52과 학년을 마치며<br><b>찬양하세 곡명:</b> 57장 아름다운 마음들이 모여서</td>
-        </tr>
-        <tr class="people" data-date="2025-12-28" style="display:none">
-            <td colspan="7">
-    <table style='width:100%; border-collapse: collapse;'>
-        <thead>
-            <tr style='background:#f1f1f1'>
-                <th>🎹 반주</th>
-                <th>🎤 찬양</th>
-                <th>💃 찬율</th>
-                <th>🗣️ 암송</th>
-                <th>👐 손유희</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1반: 김주연<br>2반: 남소연</td>
-                <td>1반: 라유리<br>2반: 전효진</td>
-                <td>1반: 박나은<br>2반: 박수용</td>
-                <td>1반: 김민서<br>2반: 박다은</td>
-                <td>1반: 김진우<br>2반: 문지훈</td>
-            </tr>
-        </tbody>
-    </table>
-    </td>
-        </tr>
-    </tbody>
-    </table>
-
-    <script>
+</head>
+<body><button id="expand-toggle-button" onclick="toggleExpandAll()" style="position: fixed; top: 20px; left: 20px; background-color: #28a745; color: white; border: none; border-radius: 8px; padding: 10px 16px; font-size: 16px; z-index: 999; cursor: pointer;">전체 펼치기</button><div style="position: fixed; top: 20px; right: 20px; background: white; padding: 10px 14px; border-radius: 8px; box-shadow: 0 0 8px rgba(0,0,0,0.1); z-index: 999; display: flex; gap: 6px;"><input id="search-name" placeholder="이름 입력" style="width: 80px; padding: 6px; font-size: 14px; border-radius: 4px; border: 1px solid #ccc;" type="text"/><button onclick="highlightName()" style="padding: 6px 10px; font-size: 14px; border: none; border-radius: 4px; background: #007bff; color: white; cursor: pointer;">검색하기</button><button id="popup-button" onclick="showMyFunctions()" style="padding: 6px 10px; font-size: 14px; border: none; border-radius: 4px; background: #ffc107; color: black; cursor: pointer;">내 기능 전체보기</button></div>
+<button id="capture-button" onclick="captureVisible()" style="position: fixed; top: 90px; right: 20px; background-color: #007bff; color: white; border: none; border-radius: 8px; padding: 10px 16px; font-size: 16px; z-index: 999; cursor: pointer;">📸 캡처하기</button>
+<h1 style="text-align:center;">2025 기능 요약표</h1>
+<p style="text-align:center; color:#6c757d">※ 날짜 줄 클릭 시 담당자가 펼쳐지고, 일요일 12시 이후엔 다음 주가 자동 강조됩니다.</p>
+<table style="width:100%; border-collapse: separate; border-spacing: 0 10px;">
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-03-30" onclick="togglePeople('2025-03-30')" style="cursor:pointer; background-color: #ffffff !important;">
+<td colspan="7"><b>2025-03-30 (일)</b> - 13과 아브람의 조카 롯<br/><b>찬양하세 곡명:</b> 42장 주님만 따라갈래</td>
+</tr>
+<tr class="people" data-date="2025-03-30" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 박나은<br/>2반: 설혜린</td>
+<td>1반: 라유리<br/>2반: 이수진</td>
+<td>1반: 김민서<br/>2반: 전효진</td>
+<td>1반: 김도건<br/>2반: 박다은</td>
+<td>1반: 김진우<br/>2반: 문지훈</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-04-06" onclick="togglePeople('2025-04-06')" style="cursor:pointer; background-color: #f0f0f5 !important;">
+<td colspan="7"><b>2025-04-06 (일)</b> - 14과 이삭을 바친 아브라함<br/><b>찬양하세 곡명:</b> 98장 어머어머 어머어머</td>
+</tr>
+<tr class="people" data-date="2025-04-06" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 김주연<br/>2반: 남소연</td>
+<td>1반: 김민서<br/>2반: 이수진</td>
+<td>1반: 라유리<br/>2반: 전효진</td>
+<td>1반: 김진우<br/>2반: 문지훈</td>
+<td>1반: 김도건<br/>2반: 박수용</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-04-13" onclick="togglePeople('2025-04-13')" style="cursor:pointer; background-color: #fdf5f0 !important;">
+<td colspan="7"><b>2025-04-13 (일)</b> - 15과 오래 참은 이삭<br/><b>찬양하세 곡명:</b> 113장 용서하는 아이</td>
+</tr>
+<tr class="people" data-date="2025-04-13" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 박나은<br/>2반: 설혜린</td>
+<td>1반: 김도건<br/>2반: 박다은</td>
+<td>1반: 김민서<br/>2반: 박수용</td>
+<td>1반: 라유리<br/>2반: 이수진</td>
+<td>1반: 문지훈<br/>2반: 전효진</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-04-20" onclick="togglePeople('2025-04-20')" style="cursor:pointer; background-color: #f3faf3 !important;">
+<td colspan="7"><b>2025-04-20 (일)</b> - 16과 하나님의 축복을 버린 에서<br/><b>찬양하세 곡명:</b> (1반)23장 쌍둥이형제<br/>(2반)12장 어리석은자</td>
+</tr>
+<tr class="people" data-date="2025-04-20" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 김주연<br/>2반: 남소연</td>
+<td>1반: 라유리<br/>2반: 박다은</td>
+<td>1반: 박나은<br/>2반: 전효진</td>
+<td>1반: 김도건<br/>2반: 박수용</td>
+<td>1반: 김진우<br/>2반: 문지훈</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-04-27" onclick="togglePeople('2025-04-27')" style="cursor:pointer; background-color: #ffffff !important;">
+<td colspan="7"><b>2025-04-27 (일)</b> - 17과 하나님과 씨름한 야곱<br/><b>찬양하세 곡명:</b> 91장 성령님을 의지해</td>
+</tr>
+<tr class="people" data-date="2025-04-27" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 박나은<br/>2반: 설혜린</td>
+<td>1반: 김민서<br/>2반: 문지훈</td>
+<td>1반: 라유리<br/>2반: 이수진</td>
+<td>1반: 김주연<br/>2반: 전효진</td>
+<td>1반: 김도건<br/>2반: 박수용</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-05-04" onclick="togglePeople('2025-05-04')" style="cursor:pointer; background-color: #f0f0f5 !important;">
+<td colspan="7"><b>2025-05-04 (일)</b> - 18과 총리가 된 요셉<br/><b>찬양하세 곡명:</b> 89장 날 도우시네</td>
+</tr>
+<tr class="people" data-date="2025-05-04" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 김주연<br/>2반: 남소연</td>
+<td>1반: 김도건<br/>2반: 박수용</td>
+<td>1반: 김민서<br/>2반: 박다은</td>
+<td>1반: 김진우<br/>2반: 이수진</td>
+<td>1반: 신재호<br/>2반: 전효진</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-05-11" onclick="togglePeople('2025-05-11')" style="cursor:pointer; background-color: #fdf5f0 !important;">
+<td colspan="7"><b>2025-05-11 (일)</b> - 19과 형들을 용서한 요셉<br/><b>찬양하세 곡명:</b> (1반)7장 교회 가족들<br/>(2반)10장 예수님의 사랑</td>
+</tr>
+<tr class="people" data-date="2025-05-11" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 박나은<br/>2반: 설혜린</td>
+<td>1반: 라유리<br/>2반: 이수진</td>
+<td>1반: 김도건<br/>2반: 박다은</td>
+<td>1반: 신재호<br/>2반: 전효진</td>
+<td>1반: 김진우<br/>2반: 문지훈</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-05-18" onclick="togglePeople('2025-05-18')" style="cursor:pointer; background-color: #f3faf3 !important;">
+<td colspan="7"><b>2025-05-18 (일)</b> - 20과 보호를 받은 아기 모세<br/><b>찬양하세 곡명:</b> (1반)55장 내 하나님은<br/>(2반)88장 우리에게 향하신</td>
+</tr>
+<tr class="people" data-date="2025-05-18" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 김주연<br/>2반: 남소연</td>
+<td>1반: 김민서<br/>2반: 박다은</td>
+<td>1반: 라유리<br/>2반: 이수진</td>
+<td>1반: 김진우<br/>2반: 신재호</td>
+<td>1반: 김도건<br/>2반: 박수용</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-05-25" onclick="togglePeople('2025-05-25')" style="cursor:pointer; background-color: #ffffff !important;">
+<td colspan="7"><b>2025-05-25 (일)</b> - 21과 애굽에 재앙을 내리신 하나님<br/><b>찬양하세 곡명:</b> 24장 열재앙 이야기</td>
+</tr>
+<tr class="people" data-date="2025-05-25" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 박나은<br/>2반: 설혜린</td>
+<td>1반: 김주연<br/>2반: 박수용</td>
+<td>1반: 김민서<br/>2반: 문지훈</td>
+<td>1반: 라유리<br/>2반: 이수진</td>
+<td>1반: 신재호<br/>2반: 전효진</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-06-01" onclick="togglePeople('2025-06-01')" style="cursor:pointer; background-color: #f0f0f5 !important;">
+<td colspan="7"><b>2025-06-01 (일)</b> - 22과 하나님의 유월절<br/><b>찬양하세 곡명:</b> 67장 하나님이 세상을</td>
+</tr>
+<tr class="people" data-date="2025-06-01" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 김주연<br/>2반: 남소연</td>
+<td>1반: 라유리<br/>2반: 박다은</td>
+<td>1반: 박나은<br/>2반: 전효진</td>
+<td>1반: 설혜린<br/>2반: 박수용</td>
+<td>1반: 김진우<br/>2반: 문지훈</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-06-08" onclick="togglePeople('2025-06-08')" style="cursor:pointer; background-color: #fdf5f0 !important;">
+<td colspan="7"><b>2025-06-08 (일)</b> - 23과 홍해를 가르신 하나님<br/><b>찬양하세 곡명:</b> 25장 애굽에서 나왔다</td>
+</tr>
+<tr class="people" data-date="2025-06-08" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 박나은<br/>2반: 설혜린</td>
+<td>1반: 김민서<br/>2반: 문지훈</td>
+<td>1반: 라유리<br/>2반: 박다은</td>
+<td>1반: 남소연<br/>2반: 이수진</td>
+<td>1반: 김도건<br/>2반: 박수용</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-06-15" onclick="togglePeople('2025-06-15')" style="cursor:pointer; background-color: #f3faf3 !important;">
+<td colspan="7"><b>2025-06-15 (일)</b> - 24과 하늘에서 내려 온 만나<br/><b>찬양하세 곡명:</b> 121장 물방울 <br/>(물방울 가사를- ‘만나’ 로 개사해서 부르기)</td>
+</tr>
+<tr class="people" data-date="2025-06-15" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 김주연<br/>2반: 남소연</td>
+<td>1반: 김도건<br/>2반: 박다은</td>
+<td>1반: 김민서<br/>2반: 이수진</td>
+<td>1반: 설혜린<br/>2반: 김진우</td>
+<td>1반: 신재호<br/>2반: 전효진</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-06-22" onclick="togglePeople('2025-06-22')" style="cursor:pointer; background-color: #ffffff !important;">
+<td colspan="7"><b>2025-06-22 (일)</b> - 25과 하나님께서 주신 율법<br/><b>찬양하세 곡명:</b> 110장 서서 진리의 띠</td>
+</tr>
+<tr class="people" data-date="2025-06-22" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 박나은<br/>2반: 설혜린</td>
+<td>1반: 라유리<br/>2반: 이수진</td>
+<td>1반: 김주연<br/>2반: 박다은</td>
+<td>1반: 남소연<br/>2반: 전효진</td>
+<td>1반: 김진우<br/>2반: 문지훈</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-06-29" onclick="togglePeople('2025-06-29')" style="cursor:pointer; background-color: #f0f0f5 !important;">
+<td colspan="7"><b>2025-06-29 (일)</b> - 26과 금송아지를 숭배한 이스라엘 백성<br/><b>찬양하세 곡명:</b> (1반)81장 네 눈이 보는 것을<br/>(2반)12장 어리석은자</td>
+</tr>
+<tr class="people" data-date="2025-06-29" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 김주연<br/>2반: 남소연</td>
+<td>1반: 김민서<br/>2반: 문지훈</td>
+<td>1반: 라유리<br/>2반: 이수진</td>
+<td>1반: 박나은<br/>2반: 신재호</td>
+<td>1반: 김도건<br/>2반: 박수용</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-07-06" onclick="togglePeople('2025-07-06')" style="cursor:pointer; background-color: #fdf5f0 !important;">
+<td colspan="7"><b>2025-07-06 (일)</b> - 27과 성막을 지은 이스라엘 백성<br/><b>찬양하세 곡명:</b> 131장 주안에 살리라</td>
+</tr>
+<tr class="people" data-date="2025-07-06" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 박나은<br/>2반: 설혜린</td>
+<td>1반: 김도건<br/>2반: 박수용</td>
+<td>1반: 김민서<br/>2반: 박다은</td>
+<td>1반: 김주연<br/>2반: 문지훈</td>
+<td>1반: 신재호<br/>2반: 전효진</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-07-13" onclick="togglePeople('2025-07-13')" style="cursor:pointer; background-color: #f3faf3 !important;">
+<td colspan="7"><b>2025-07-13 (일)</b> - 28과 죄를 용서받는 제사<br/><b>찬양하세 곡명:</b> 141장 예수님의 보혈</td>
+</tr>
+<tr class="people" data-date="2025-07-13" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 김주연<br/>2반: 남소연</td>
+<td>1반: 라유리<br/>2반: 이수진</td>
+<td>1반: 박나은<br/>2반: 전효진</td>
+<td>1반: 설혜린<br/>2반: 박다은</td>
+<td>1반: 김진우<br/>2반: 문지훈</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-07-20" onclick="togglePeople('2025-07-20')" style="cursor:pointer; background-color: #ffffff !important;">
+<td colspan="7"><b>2025-07-20 (일)</b> - 29과 정탐꾼들의 보고<br/><b>찬양하세 곡명:</b> 55장 내 하나님은</td>
+</tr>
+<tr class="people" data-date="2025-07-20" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 박나은<br/>2반: 설혜린</td>
+<td>1반: 김민서<br/>2반: 박다은</td>
+<td>1반: 라유리<br/>2반: 이수진</td>
+<td>1반: 남소연<br/>2반: 김진우</td>
+<td>1반: 김도건<br/>2반: 박수용</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-07-27" onclick="togglePeople('2025-07-27')" style="cursor:pointer; background-color: #f0f0f5 !important;">
+<td colspan="7"><b>2025-07-27 (일)</b> - 30과 놋뱀을 바라봄<br/><b>찬양하세 곡명:</b> 106장 하나님 말씀으로</td>
+</tr>
+<tr class="people" data-date="2025-07-27" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 김주연<br/>2반: 남소연</td>
+<td>1반: 김도건<br/>2반: 박수용</td>
+<td>1반: 김민서<br/>2반: 문지훈</td>
+<td>1반: 김진우<br/>2반: 이수진</td>
+<td>1반: 신재호<br/>2반: 전효진</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-08-03" onclick="togglePeople('2025-08-03')" style="cursor:pointer; background-color: #fdf5f0 !important;">
+<td colspan="7"><b>2025-08-03 (일)</b> - 31과 새 지도자 여호수아<br/><b>찬양하세 곡명:</b> 187장 오 주여 나의 마음이　</td>
+</tr>
+<tr class="people" data-date="2025-08-03" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 박나은<br/>2반: 설혜린</td>
+<td>1반: 라유리<br/>2반: 박다은</td>
+<td>1반: 김도건<br/>2반: 박수용</td>
+<td>1반: 신재호<br/>2반: 전효진</td>
+<td>1반: 김진우<br/>2반: 문지훈</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-08-10" onclick="togglePeople('2025-08-10')" style="cursor:pointer; background-color: #f3faf3 !important;">
+<td colspan="7"><b>2025-08-10 (일)</b> - 32과 요단강을 건너감<br/><b>찬양하세 곡명:</b> 173장 하나님은 너를 지키시는 자</td>
+</tr>
+<tr class="people" data-date="2025-08-10" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 김주연<br/>2반: 남소연</td>
+<td>1반: 김민서<br/>2반: 문지훈</td>
+<td>1반: 박나은<br/>2반: 이수진</td>
+<td>1반: 라유리<br/>2반: 설혜린</td>
+<td>1반: 김도건<br/>2반: 박수용</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-08-17" onclick="togglePeople('2025-08-17')" style="cursor:pointer; background-color: #ffffff !important;">
+<td colspan="7"><b>2025-08-17 (일)</b> - 33과 무너진 여리고 성벽<br/><b>찬양하세 곡명:</b> 27장 무너진 여리고성</td>
+</tr>
+<tr class="people" data-date="2025-08-17" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 박나은<br/>2반: 설혜린</td>
+<td>1반: 김주연<br/>2반: 이수진</td>
+<td>1반: 김도건<br/>2반: 박다은</td>
+<td>1반: 남소연<br/>2반: 김진우</td>
+<td>1반: 신재호<br/>2반: 전효진</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-08-24" onclick="togglePeople('2025-08-24')" style="cursor:pointer; background-color: #f0f0f5 !important;">
+<td colspan="7"><b>2025-08-24 (일)</b> - 34과 아간의 범죄<br/><b>찬양하세 곡명:</b> 38장 악마사탄</td>
+</tr>
+<tr class="people" data-date="2025-08-24" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 김주연<br/>2반: 남소연</td>
+<td>1반: 라유리<br/>2반: 박다은</td>
+<td>1반: 김민서<br/>2반: 전효진</td>
+<td>1반: 설혜린<br/>2반: 이수진</td>
+<td>1반: 김진우<br/>2반: 문지훈</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-08-31" onclick="togglePeople('2025-08-31')" style="cursor:pointer; background-color: #fdf5f0 !important;">
+<td colspan="7"><b>2025-08-31 (일)</b> - 35과 가나안을 정복한 이스라엘<br/><b>찬양하세 곡명:</b> 124장 믿음으로 가는 나라</td>
+</tr>
+<tr class="people" data-date="2025-08-31" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 박나은<br/>2반: 설혜린</td>
+<td>1반: 김민서<br/>2반: 문지훈</td>
+<td>1반: 라유리<br/>2반: 전효진</td>
+<td>1반: 김진우<br/>2반: 신재호</td>
+<td>1반: 김도건<br/>2반: 박수용</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-09-07" onclick="togglePeople('2025-09-07')" style="cursor:pointer; background-color: #f3faf3 !important;">
+<td colspan="7"><b>2025-09-07 (일)</b> - 36과 도피성<br/><b>찬양하세 곡명:</b> 83장 내가 곧 길이요 진리요</td>
+</tr>
+<tr class="people" data-date="2025-09-07" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 김주연<br/>2반: 남소연</td>
+<td>1반: 김도건<br/>2반: 박수용</td>
+<td>1반: 라유리<br/>2반: 박다은</td>
+<td>1반: 설혜린<br/>2반: 이수진</td>
+<td>1반: 신재호<br/>2반: 전효진</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-09-14" onclick="togglePeople('2025-09-14')" style="cursor:pointer; background-color: #ffffff !important;">
+<td colspan="7"><b>2025-09-14 (일)</b> - 37과 섬길 자를 택하라<br/><b>찬양하세 곡명:</b> 63장 어떤 길로 갈까</td>
+</tr>
+<tr class="people" data-date="2025-09-14" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 박나은<br/>2반: 설혜린</td>
+<td>1반: 라유리<br/>2반: 박다은</td>
+<td>1반: 김민서<br/>2반: 박수용</td>
+<td>1반: 남소연<br/>2반: 전효진</td>
+<td>1반: 김진우<br/>2반: 문지훈</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-09-21" onclick="togglePeople('2025-09-21')" style="cursor:pointer; background-color: #f0f0f5 !important;">
+<td colspan="7"><b>2025-09-21 (일)</b> - 38과 이스라엘을 구한 사사<br/><b>찬양하세 곡명:</b> 180장 주님과 담대히</td>
+</tr>
+<tr class="people" data-date="2025-09-21" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 김주연<br/>2반: 남소연</td>
+<td>1반: 김민서<br/>2반: 이수진</td>
+<td>1반: 박나은<br/>2반: 전효진</td>
+<td>1반: 김진우<br/>2반: 문지훈</td>
+<td>1반: 김도건<br/>2반: 박수용</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-09-28" onclick="togglePeople('2025-09-28')" style="cursor:pointer; background-color: #fdf5f0 !important;">
+<td colspan="7"><b>2025-09-28 (일)</b> - 39과 기드온과 삼백용사<br/><b>찬양하세 곡명:</b> 29장 나는 주의 군병</td>
+</tr>
+<tr class="people" data-date="2025-09-28" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 박나은<br/>2반: 설혜린</td>
+<td>1반: 김주연<br/>2반: 박다은</td>
+<td>1반: 라유리<br/>2반: 이수진</td>
+<td>1반: 김진우<br/>2반: 문지훈</td>
+<td>1반: 신재호<br/>2반: 전효진</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-10-05" onclick="togglePeople('2025-10-05')" style="cursor:pointer; background-color: #f3faf3 !important;">
+<td colspan="7"><b>2025-10-05 (일)</b> - 40과 사사 삼손<br/><b>찬양하세 곡명:</b> 17장 노아할아버지 2절</td>
+</tr>
+<tr class="people" data-date="2025-10-05" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 김주연<br/>2반: 남소연</td>
+<td>1반: 라유리<br/>2반: 이수진</td>
+<td>1반: 김도건<br/>2반: 박다은</td>
+<td>1반: 설혜린<br/>2반: 박수용</td>
+<td>1반: 김진우<br/>2반: 문지훈</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-10-12" onclick="togglePeople('2025-10-12')" style="cursor:pointer; background-color: #ffffff !important;">
+<td colspan="7"><b>2025-10-12 (일)</b> - 41과 룻의 믿음<br/><b>찬양하세 곡명:</b> 195장 먼저 그 나라와</td>
+</tr>
+<tr class="people" data-date="2025-10-12" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 박나은<br/>2반: 설혜린</td>
+<td>1반: 김민서<br/>2반: 문지훈</td>
+<td>1반: 라유리<br/>2반: 전효진</td>
+<td>1반: 남소연<br/>2반: 박다은</td>
+<td>1반: 김도건<br/>2반: 박수용</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-10-19" onclick="togglePeople('2025-10-19')" style="cursor:pointer; background-color: #f0f0f5 !important;">
+<td colspan="7"><b>2025-10-19 (일)</b> - 42과 사무엘을 부르신 하나님<br/><b>찬양하세 곡명:</b> (1반)107장 나는 하나님의 것<br/>(2반) 142장 오 기쁜날</td>
+</tr>
+<tr class="people" data-date="2025-10-19" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 김주연<br/>2반: 남소연</td>
+<td>1반: 김도건<br/>2반: 박수용</td>
+<td>1반: 김민서<br/>2반: 문지훈</td>
+<td>1반: 김진우<br/>2반: 이수진</td>
+<td>1반: 신재호<br/>2반: 전효진</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-10-26" onclick="togglePeople('2025-10-26')" style="cursor:pointer; background-color: #fdf5f0 !important;">
+<td colspan="7"><b>2025-10-26 (일)</b> - 43과 사울의 불순종<br/><b>찬양하세 곡명:</b> 42장 주님만 따라갈래</td>
+</tr>
+<tr class="people" data-date="2025-10-26" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 박나은<br/>2반: 설혜린</td>
+<td>1반: 라유리<br/>2반: 이수진</td>
+<td>1반: 김도건<br/>2반: 박다은</td>
+<td>1반: 김민서<br/>2반: 남소연</td>
+<td>1반: 김진우<br/>2반: 문지훈</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-11-02" onclick="togglePeople('2025-11-02')" style="cursor:pointer; background-color: #f3faf3 !important;">
+<td colspan="7"><b>2025-11-02 (일)</b> - 44과 골리앗을 죽인 다윗<br/><b>찬양하세 곡명:</b> 16장 꼬마다윗</td>
+</tr>
+<tr class="people" data-date="2025-11-02" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 김주연<br/>2반: 남소연</td>
+<td>1반: 김민서<br/>2반: 박다은</td>
+<td>1반: 라유리<br/>2반: 이수진</td>
+<td>1반: 김진우<br/>2반: 설혜린</td>
+<td>1반: 김도건<br/>2반: 박수용</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-11-09" onclick="togglePeople('2025-11-09')" style="cursor:pointer; background-color: #ffffff !important;">
+<td colspan="7"><b>2025-11-09 (일)</b> - 45과 다윗과 요나단의 우정<br/><b>찬양하세 곡명:</b> (1반)9장 내마음에 사랑이<br/>(2반)133장 주의 사랑으로</td>
+</tr>
+<tr class="people" data-date="2025-11-09" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 박나은<br/>2반: 설혜린</td>
+<td>1반: 김도건<br/>2반: 박수용</td>
+<td>1반: 김민서<br/>2반: 박다은</td>
+<td>1반: 라유리<br/>2반: 김진우</td>
+<td>1반: 신재호<br/>2반: 전효진</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-11-16" onclick="togglePeople('2025-11-16')" style="cursor:pointer; background-color: #f0f0f5 !important;">
+<td colspan="7"><b>2025-11-16 (일)</b> - 46과 사울의 목숨을 살려준 다윗<br/><b>찬양하세 곡명:</b> 105장 사랑의 띠</td>
+</tr>
+<tr class="people" data-date="2025-11-16" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 김주연<br/>2반: 남소연</td>
+<td>1반: 라유리<br/>2반: 박다은</td>
+<td>1반: 박나은<br/>2반: 전효진</td>
+<td>1반: 김민서<br/>2반: 이수진</td>
+<td>1반: 김진우<br/>2반: 문지훈</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-11-23" onclick="togglePeople('2025-11-23')" style="cursor:pointer; background-color: #fdf5f0 !important;">
+<td colspan="7"><b>2025-11-23 (일)</b> - 47과 왕이 된 다윗<br/><b>찬양하세 곡명:</b> 40장 왕왕왕</td>
+</tr>
+<tr class="people" data-date="2025-11-23" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 박나은<br/>2반: 설혜린</td>
+<td>1반: 김민서<br/>2반: 문지훈</td>
+<td>1반: 라유리<br/>2반: 이수진</td>
+<td>1반: 김진우<br/>2반: 박다은</td>
+<td>1반: 김도건<br/>2반: 박수용</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-11-30" onclick="togglePeople('2025-11-30')" style="cursor:pointer; background-color: #f3faf3 !important;">
+<td colspan="7"><b>2025-11-30 (일)</b> - 48과 다윗과 절뚝발이 왕자<br/><b>찬양하세 곡명:</b> 33장 다다다다 모여라</td>
+</tr>
+<tr class="people" data-date="2025-11-30" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 김주연<br/>2반: 남소연</td>
+<td>1반: 김도건<br/>2반: 이수진</td>
+<td>1반: 김민서<br/>2반: 문지훈</td>
+<td>1반: 박나은<br/>2반: 김진우</td>
+<td>1반: 신재호<br/>2반: 전효진</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-12-07" onclick="togglePeople('2025-12-07')" style="cursor:pointer; background-color: #ffffff !important;">
+<td colspan="7"><b>2025-12-07 (일)</b> - 49과 지혜를 구한 솔로몬<br/><b>찬양하세 곡명:</b> 6장 예수님 손잡고</td>
+</tr>
+<tr class="people" data-date="2025-12-07" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 박나은<br/>2반: 설혜린</td>
+<td>1반: 라유리<br/>2반: 박다은</td>
+<td>1반: 김도건<br/>2반: 전효진</td>
+<td>1반: 남소연<br/>2반: 신재호</td>
+<td>1반: 김진우<br/>2반: 문지훈</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-12-14" onclick="togglePeople('2025-12-14')" style="cursor:pointer; background-color: #f0f0f5 !important;">
+<td colspan="7"><b>2025-12-14 (일)</b> - 50과 성전을 지은 솔로몬<br/><b>찬양하세 곡명:</b> 29장 나는 주의 군병</td>
+</tr>
+<tr class="people" data-date="2025-12-14" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 김주연<br/>2반: 남소연</td>
+<td>1반: 김민서<br/>2반: 문지훈</td>
+<td>1반: 라유리<br/>2반: 이수진</td>
+<td>1반: 설혜린<br/>2반: 박다은</td>
+<td>1반: 김도건<br/>2반: 박수용</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-12-21" onclick="togglePeople('2025-12-21')" style="cursor:pointer; background-color: #fdf5f0 !important;">
+<td colspan="7"><b>2025-12-21 (일)</b> - 51과 나누어진 나라<br/><b>찬양하세 곡명:</b> (1반) 66장 의인이 없네<br/>(2반) 77장 부패한 마음</td>
+</tr>
+<tr class="people" data-date="2025-12-21" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 박나은<br/>2반: 설혜린</td>
+<td>1반: 김주연<br/>2반: 박수용</td>
+<td>1반: 김민서<br/>2반: 박다은</td>
+<td>1반: 김진우<br/>2반: 이수진</td>
+<td>1반: 신재호<br/>2반: 전효진</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+<tbody class="group" style="border-radius: 12px; overflow: hidden; margin-bottom: 24px; ">
+<tr class="header" data-date="2025-12-28" onclick="togglePeople('2025-12-28')" style="cursor:pointer; background-color: #f3faf3 !important;">
+<td colspan="7"><b>2025-12-28 (일)</b> - 52과 학년을 마치며<br/><b>찬양하세 곡명:</b> 57장 아름다운 마음들이 모여서</td>
+</tr>
+<tr class="people" data-date="2025-12-28" style="display:none">
+<td colspan="7">
+<table style="width:100%; border-collapse: collapse;">
+<thead>
+<tr style="background:#f1f1f1">
+<th>🎹 반주</th>
+<th>🎤 찬양</th>
+<th>💃 찬율</th>
+<th>🗣️ 암송</th>
+<th>👐 손유희</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1반: 김주연<br/>2반: 남소연</td>
+<td>1반: 라유리<br/>2반: 전효진</td>
+<td>1반: 박나은<br/>2반: 박수용</td>
+<td>1반: 김민서<br/>2반: 박다은</td>
+<td>1반: 김진우<br/>2반: 문지훈</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<script>
     function captureVisible() {
         
     const visibleGroups = Array.from(document.querySelectorAll('.group'))
@@ -1345,9 +1294,8 @@ window.onload = function () {
         });
     }
     </script>
-    
-    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
-    <script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+<script>
     function captureVisible() {
         const visibleGroups = Array.from(document.querySelectorAll('.group'))
             .filter(group => {
@@ -1371,7 +1319,130 @@ window.onload = function () {
         });
     }
     </script>
-    </body>
+<button onclick="expandAll()" style="margin-bottom: 20px; padding: 10px 20px; background: #28a745; color: white; border: none; border-radius: 6px; font-size: 16px; cursor: pointer;">
+    전체 펼치기
+</button>
+<script>
+function expandAll() {
+    const headers = document.querySelectorAll("tr.header");
+    const people = document.querySelectorAll("tr.people");
+    headers.forEach(h => h.classList.add('font-enlarge'));
+    people.forEach(p => {
+        p.style.display = '';
+        p.classList.add('font-enlarge');
+    });
+}
+</script>
+<script>
+let expanded = false;
+function toggleExpandAll() {
+    const headers = document.querySelectorAll("tr.header");
+    const people = document.querySelectorAll("tr.people");
+    if (!expanded) {
+        headers.forEach(h => h.classList.add('font-enlarge'));
+        people.forEach(p => {
+            p.style.display = '';
+            p.classList.add('font-enlarge');
+        });
+        document.getElementById("expand-toggle-button").innerText = "전체 닫기";
+        expanded = true;
+    } else {
+        headers.forEach(h => h.classList.remove('font-enlarge'));
+        people.forEach(p => {
+            p.style.display = 'none';
+            p.classList.remove('font-enlarge');
+        });
+        document.getElementById("expand-toggle-button").innerText = "전체 펼치기";
+        expanded = false;
+    }
+}
+</script><script>
+function highlightName() {
+    const name = document.getElementById("search-name").value.trim();
+    const cells = document.querySelectorAll("tr.people td");
+    const headers = document.querySelectorAll("tr.header");
+    const rows = document.querySelectorAll("tr.people");
 
+    // 초기화
+    cells.forEach(td => {
+        td.innerHTML = td.innerHTML.replace(/<mark>|<\/mark>/g, '');
+    });
 
+    rows.forEach(r => {
+        r.style.display = 'none';
+        r.classList.remove('font-enlarge');
+        if (r.previousElementSibling) r.previousElementSibling.classList.remove('font-enlarge');
+    });
+
+    if (!name) return;
+
+    // 강조 및 펼치기
+    cells.forEach(td => {
+        if (td.innerText.includes(name)) {
+            const regex = new RegExp(name, "g");
+            td.innerHTML = td.innerHTML.replace(regex, `<mark style="background: #fffd54;">${name}</mark>`);
+            const row = td.closest("tr.people");
+            if (row) {
+                row.style.display = '';
+                row.classList.add('font-enlarge');
+                const header = row.previousElementSibling;
+                if (header) header.classList.add('font-enlarge');
+            }
+        }
+    });
+}
+
+function showMyFunctions() {
+    const name = document.getElementById("search-name").value.trim();
+    if (!name) {
+        alert("이름을 먼저 입력하세요.");
+        return;
+    }
+
+    let results = [];
+    const rows = document.querySelectorAll("tr.people");
+    rows.forEach(row => {
+        const date = row.getAttribute("data-date");
+        const headerRow = document.querySelector(`tr.header[data-date='${date}']`);
+        const headerText = headerRow ? headerRow.innerText.split('\n')[0] : '';
+        const subjectMatch = headerText.match(/- (.+)/);
+        const subject = subjectMatch ? subjectMatch[1].trim() : "";
+        const headers = ["반주", "찬양", "찬율", "암송", "손유희"];
+        const cells = row.querySelectorAll("td table tbody tr td");
+
+        cells.forEach((cell, index) => {
+            if (cell.innerText.includes(name)) {
+                results.push({
+                    date: date,
+                    subject: subject,
+                    role: headers[index]
+                });
+            }
+        });
+    });
+
+    if (results.length === 0) {
+        alert(name + "님의 기능 담당 기록이 없습니다.");
+        return;
+    }
+
+    let html = `<h3 style='margin-top:0'>` + name + `님의 기능 담당 내역</h3>`;
+    html += "<table style='width:100%; border-collapse:collapse;'><thead><tr style='background:#f1f1f1;'><th>날짜</th><th>과제</th><th>기능</th></tr></thead><tbody>";
+    results.forEach(r => {
+        html += `<tr><td>${r.date}</td><td>${r.subject}</td><td>${r.role}</td></tr>`;
+    });
+    html += "</tbody></table>";
+
+    const popup = window.open("", "_blank", "width=600,height=500,scrollbars=yes");
+    popup.document.write(`<html><head><title>${name}님의 기능 보기</title>
+        <style>
+            body { font-family: sans-serif; padding: 20px; }
+            table { width: 100%; border-collapse: collapse; }
+            th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+            th { background: #eee; }
+        </style>
+        </head><body>${html}</body></html>`);
+    popup.document.close();
+}
+</script></body>
 </html>
